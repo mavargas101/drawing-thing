@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+
+}
+.title{
+    text-align: center;
+    font-size: 64px;
+    padding: 0 0 30px 0;
+}
+.grid{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body.flex{
+        height: 100vh;
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto; 
+    gap: 100px;
+    padding: 0 0 500px 0;
+}
+main.flex{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rangeNumber{
+    text-align: center;
+}
+aside.flex{
+    gap: 20px;
+}
+p{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
