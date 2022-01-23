@@ -23,7 +23,7 @@ function generateGrid(size){
     for(let i = 0; i < (size*size); i++){
         let pixel = document.createElement('div');
         pixel.classList.add("pixel");
-        pixel.addEventListener('mouseenter', () => hovered(pixel));
+        pixel.addEventListener('mouseover', () => hovered(pixel));
         grid.appendChild(pixel);
     }
 }
